@@ -734,7 +734,12 @@ footer .copyright-container span {
     gap: 3.2rem;
     text-align: center;
   }
-  /* line 113, ../jeri/assets/scss/_footer.scss */
+  /* line 112, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .attendance .attendance-container {
+    display: flex;
+    align-items: center;
+  }
+  /* line 119, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .social-network .social-network-content a {
     display: flex;
     justify-content: center;
@@ -742,17 +747,17 @@ footer .copyright-container span {
 }
 
 @media (max-width: 475px) {
-  /* line 125, ../jeri/assets/scss/_footer.scss */
+  /* line 131, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3.2rem;
   }
-  /* line 130, ../jeri/assets/scss/_footer.scss */
+  /* line 136, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance .attendance-container {
     align-items: center;
   }
-  /* line 135, ../jeri/assets/scss/_footer.scss */
+  /* line 141, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
     font-size: 2rem;
   }

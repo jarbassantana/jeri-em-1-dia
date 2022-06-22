@@ -108,6 +108,12 @@ footer{
       grid-template-columns: 1fr 1fr;
       gap: 3.2rem;
       text-align: center;
+      .attendance{
+        .attendance-container{
+          display: flex;
+          align-items: center;
+        }
+      }
       .social-network{
         .social-network-content{
           a{
