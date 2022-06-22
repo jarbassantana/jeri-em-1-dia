@@ -67,11 +67,6 @@ footer{
         line-height: 120%;
       }
     }
-    .attendance{
-      .attendance-container{
-        align-items: center;
-      }
-    }
     .social-network{
 
       .social-network-content{
@@ -131,7 +126,11 @@ footer{
       display: grid;
       grid-template-columns: 1fr;
       gap: 3.2rem;
-
+      .attendance{
+        .attendance-container{
+          align-items: center;
+        }
+      }
       .attendance, .links, .social-network{
         h3{
           font-size: 2rem;

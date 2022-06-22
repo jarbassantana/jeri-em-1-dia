@@ -691,19 +691,14 @@ footer .footer-container .links a {
   line-height: 120%;
 }
 
-/* line 71, ../jeri/assets/scss/_footer.scss */
-footer .footer-container .attendance .attendance-container {
-  align-items: center;
-}
-
-/* line 77, ../jeri/assets/scss/_footer.scss */
+/* line 72, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* line 81, ../jeri/assets/scss/_footer.scss */
+/* line 76, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a {
   display: flex;
   gap: 1rem;
@@ -711,19 +706,19 @@ footer .footer-container .social-network .social-network-content a {
   transition: transform 0.2s ease;
 }
 
-/* line 86, ../jeri/assets/scss/_footer.scss */
+/* line 81, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a:hover {
   transform: scale(1.05);
 }
 
-/* line 94, ../jeri/assets/scss/_footer.scss */
+/* line 89, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* line 98, ../jeri/assets/scss/_footer.scss */
+/* line 93, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container span {
   text-align: center;
   color: rgba(255, 255, 255, 0.89);
@@ -732,14 +727,14 @@ footer .copyright-container span {
 }
 
 @media (max-width: 767px) {
-  /* line 111, ../jeri/assets/scss/_footer.scss */
+  /* line 106, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.2rem;
     text-align: center;
   }
-  /* line 118, ../jeri/assets/scss/_footer.scss */
+  /* line 113, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .social-network .social-network-content a {
     display: flex;
     justify-content: center;
@@ -747,13 +742,17 @@ footer .copyright-container span {
 }
 
 @media (max-width: 475px) {
-  /* line 130, ../jeri/assets/scss/_footer.scss */
+  /* line 125, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3.2rem;
   }
-  /* line 136, ../jeri/assets/scss/_footer.scss */
+  /* line 130, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .attendance .attendance-container {
+    align-items: center;
+  }
+  /* line 135, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
     font-size: 2rem;
   }
