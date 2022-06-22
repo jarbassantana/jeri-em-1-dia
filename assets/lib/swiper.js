@@ -2,6 +2,7 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
   // autoHeight: true,
+  spaceBetween: 10,
 
   // If we need pagination
   pagination: {
