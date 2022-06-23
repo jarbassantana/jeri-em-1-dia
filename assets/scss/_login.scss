@@ -1,0 +1,136 @@
+section {
+  display: flex;
+  background: url(../img/background-login.jpg) no-repeat left center;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  // gap: 3.2rem;
+  .lg-column-1{
+    width: 50%;
+  }
+  .lg-column-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 20rem;
+      width: 100%;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 30.5rem;
+      input{
+        padding: 1.35rem 0 1.35rem 2.4rem;
+        border-radius: 5px;
+        width: 100%;
+        color: #686868;
+        font-size: 1.6rem;
+        border: 1px solid #D9D9D9;
+        transition: border-color 0.2s ease-in;
+        &:focus{
+          border-color: $brand-orange-primary;
+        }
+      }
+      input[type="email"] {
+        margin-top: 4.8rem;
+        background: #ededed;
+        
+      }
+      input[type="password"]{
+        margin-top: 1.6rem;
+        background: #ededed;
+      }
+      button[type="submit"]{
+        margin-top: 3.2rem;
+        font-size: 1.6rem;
+        padding: 1.35rem 0;
+        border-radius: 5px;
+        background: $brand-orange-primary;
+        color: $brand-white;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: all 0.2s ease;
+        &:hover{
+          border: 1px solid $brand-orange-primary;
+          background: transparent;
+          color: $brand-orange-primary;
+        }
+      }
+    }
+    .lg-recovery-pass-content{
+      max-width: 30.5rem;
+      width: 100%;
+      a {
+        margin-top: 2.4rem;
+        display: block;
+        color: $brand-orange-primary;
+        transition: color 0.2s ease;
+        &:hover{
+          color: $brand-black-secondary;
+        }
+      }
+    }
+
+    .back-to-home-content{
+      margin-top: 14rem;
+      padding: 1rem ;
+      max-width: 26rem;
+      width: 100%;
+      text-align: center;
+      
+      a{
+        display: inline-flex;
+        align-items: center;
+        line-height: 120%;
+        gap: 1rem;
+        color: $brand-orange-primary;
+        transition: all .2s linear;
+        font-size: 1.6rem;
+        span{
+          display: flex;
+          svg{
+            max-width: 24px;
+            height: 24px;
+            width: 100%;
+            path{
+              transition: all .2s linear;
+              stroke: $brand-orange-primary;
+            }
+          }
+        }
+        &:hover{
+          svg {
+            path{
+              stroke: $brand-black-secondary;
+            }
+          }
+          color: $brand-black-secondary;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  section{
+    .lg-column-2{
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  section {
+    background: none;
+    .lg-column-1{
+      width: auto;
+    }
+    .lg-column-2{
+      width: 100%;
+    }
+  }
+} 

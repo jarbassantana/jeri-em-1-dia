@@ -296,7 +296,6 @@
   }
 }
 
-
 @media (max-width: 1024px) {
   .hero-section {
     .hero-section-container {
@@ -355,7 +354,7 @@
 }
 
 @media (max-width: 767px) {
-  html{
+  html {
     font-size: 56.25%;
   }
   .section-2 {
@@ -393,16 +392,16 @@
   }
 }
 
-@media (max-width: 475px){
-  .hero-section{
-    .hero-section-container{
-      .column-1{
-        a{
+@media (max-width: 475px) {
+  .hero-section {
+    .hero-section-container {
+      .column-1 {
+        a {
           max-width: 100%;
         }
       }
-      .column-2{
-        img{
+      .column-2 {
+        img {
           max-width: 100%;
           width: 100%;
           height: auto;
@@ -411,35 +410,36 @@
     }
   }
   .section-2 {
-    .container-2{
+    .container-2 {
       .column-1 {
-        a{
+        a {
           max-width: 100%;
         }
       }
     }
   }
   .roadmap-container {
-    .column-1__roadmap{
-      .roadmap-infos{
+    .column-1__roadmap {
+      .roadmap-infos {
         display: flex;
         flex-wrap: wrap;
 
-        .roadmap-info-include, .roadmap-info-exclude{
-          h3{
+        .roadmap-info-include,
+        .roadmap-info-exclude {
+          h3 {
             font-size: 2rem;
           }
         }
       }
     }
-    .column-2__roadmap{
+    .column-2__roadmap {
       display: flex;
       flex-direction: column;
       // align-items: center;
-      h3{
+      h3 {
         font-size: 3.2rem;
       }
-      a{
+      a {
         // max-width: 28rem;
         width: 100%;
         text-align: center;
@@ -449,18 +449,16 @@
     }
   }
   .faq-container {
-    h3{
+    h3 {
       font-size: 3.2rem;
     }
-    span{
+    span {
       font-size: 2rem;
     }
 
-    .faq-accordeon-container{
-
-      .accordion-item{
-
-        .accordion-item-header{
+    .faq-accordeon-container {
+      .accordion-item {
+        .accordion-item-header {
           font-size: 1.8rem;
         }
       }
@@ -470,21 +468,17 @@
 
 @media (max-width: 360px) {
   .section-2 {
-    .container-1{
+    .container-1 {
       display: grid;
       grid-template-columns: 1fr;
 
-      .columns{
-        h3{
+      .columns {
+        h3 {
           font-size: 1.8rem;
         }
       }
     }
   }
 }
-
-
-
-
 
 @import "_footer";
