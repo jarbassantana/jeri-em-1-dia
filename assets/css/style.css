@@ -774,7 +774,7 @@ footer .copyright-container span {
 }
 
 /* line 1, ../jeri/assets/scss/_login.scss */
-section {
+.login {
   display: flex;
   background: url(../img/background-login.jpg) no-repeat left center;
   background-size: contain;
@@ -783,12 +783,12 @@ section {
 }
 
 /* line 8, ../jeri/assets/scss/_login.scss */
-section .lg-column-1 {
+.login .lg-column-1 {
   width: 50%;
 }
 
 /* line 11, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 {
+.login .lg-column-2 {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -797,13 +797,13 @@ section .lg-column-2 {
 }
 
 /* line 17, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 img {
+.login .lg-column-2 img {
   max-width: 20rem;
   width: 100%;
 }
 
 /* line 21, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form {
+.login .lg-column-2 form {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -811,7 +811,7 @@ section .lg-column-2 form {
 }
 
 /* line 26, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form input {
+.login .lg-column-2 form input {
   padding: 1.35rem 0 1.35rem 2.4rem;
   border-radius: 5px;
   width: 100%;
@@ -822,24 +822,24 @@ section .lg-column-2 form input {
 }
 
 /* line 34, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form input:focus {
+.login .lg-column-2 form input:focus {
   border-color: #F2762E;
 }
 
 /* line 38, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form input[type="email"] {
+.login .lg-column-2 form input[type="email"] {
   margin-top: 4.8rem;
   background: #ededed;
 }
 
 /* line 43, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form input[type="password"] {
+.login .lg-column-2 form input[type="password"] {
   margin-top: 1.6rem;
   background: #ededed;
 }
 
 /* line 47, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form button[type="submit"] {
+.login .lg-column-2 form button[type="submit"] {
   margin-top: 3.2rem;
   font-size: 1.6rem;
   padding: 1.35rem 0;
@@ -852,20 +852,20 @@ section .lg-column-2 form button[type="submit"] {
 }
 
 /* line 57, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 form button[type="submit"]:hover {
+.login .lg-column-2 form button[type="submit"]:hover {
   border: 1px solid #F2762E;
   background: transparent;
   color: #F2762E;
 }
 
 /* line 64, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .lg-recovery-pass-content {
+.login .lg-column-2 .lg-recovery-pass-content {
   max-width: 30.5rem;
   width: 100%;
 }
 
 /* line 67, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .lg-recovery-pass-content a {
+.login .lg-column-2 .lg-recovery-pass-content a {
   margin-top: 2.4rem;
   display: block;
   color: #F2762E;
@@ -873,12 +873,12 @@ section .lg-column-2 .lg-recovery-pass-content a {
 }
 
 /* line 72, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .lg-recovery-pass-content a:hover {
+.login .lg-column-2 .lg-recovery-pass-content a:hover {
   color: #0D0D0D;
 }
 
 /* line 78, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content {
+.login .lg-column-2 .back-to-home-content {
   margin-top: 14rem;
   padding: 1rem;
   max-width: 26rem;
@@ -887,7 +887,7 @@ section .lg-column-2 .back-to-home-content {
 }
 
 /* line 85, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a {
+.login .lg-column-2 .back-to-home-content a {
   display: inline-flex;
   align-items: center;
   line-height: 120%;
@@ -898,51 +898,51 @@ section .lg-column-2 .back-to-home-content a {
 }
 
 /* line 93, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a span {
+.login .lg-column-2 .back-to-home-content a span {
   display: flex;
 }
 
 /* line 95, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a span svg {
+.login .lg-column-2 .back-to-home-content a span svg {
   max-width: 24px;
   height: 24px;
   width: 100%;
 }
 
 /* line 99, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a span svg path {
+.login .lg-column-2 .back-to-home-content a span svg path {
   transition: all .2s linear;
   stroke: #F2762E;
 }
 
 /* line 105, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a:hover {
+.login .lg-column-2 .back-to-home-content a:hover {
   color: #0D0D0D;
 }
 
 /* line 107, ../jeri/assets/scss/_login.scss */
-section .lg-column-2 .back-to-home-content a:hover svg path {
+.login .lg-column-2 .back-to-home-content a:hover svg path {
   stroke: #0D0D0D;
 }
 
 @media (max-width: 1440px) {
   /* line 120, ../jeri/assets/scss/_login.scss */
-  section .lg-column-2 {
+  .login .lg-column-2 {
     width: 50%;
   }
 }
 
 @media (max-width: 1080px) {
   /* line 127, ../jeri/assets/scss/_login.scss */
-  section {
+  .login {
     background: none;
   }
   /* line 129, ../jeri/assets/scss/_login.scss */
-  section .lg-column-1 {
+  .login .lg-column-1 {
     width: auto;
   }
   /* line 132, ../jeri/assets/scss/_login.scss */
-  section .lg-column-2 {
+  .login .lg-column-2 {
     width: 100%;
   }
 }

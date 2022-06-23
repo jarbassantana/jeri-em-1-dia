@@ -1,4 +1,4 @@
-section {
+.login {
   display: flex;
   background: url(../img/background-login.jpg) no-repeat left center;
   background-size: contain;
@@ -116,7 +116,7 @@ section {
 }
 
 @media (max-width: 1440px) {
-  section{
+  .login{
     .lg-column-2{
       width: 50%;
     }
@@ -124,7 +124,7 @@ section {
 }
 
 @media (max-width: 1080px) {
-  section {
+  .login {
     background: none;
     .lg-column-1{
       width: auto;
