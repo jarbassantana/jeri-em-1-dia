@@ -274,9 +274,6 @@
 
 @media (max-width: 767px) {
   .checkout-container{
-    .info-passeio-container{
-      @include d-flex-responsive;
-    }
     .personal-data-container{
       .personal-data-content{
         .personal-cpf-content{
@@ -307,6 +304,23 @@
         @include d-flex-responsive;
       }
     }
+  }
+}
+
+@media (max-width: 475px){
+  .checkout-container{
+    .info-passeio-container{
+      @include d-flex-responsive;
+      .ps-column-1{
+        max-width: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .checkout-container{
+    padding: 1.6rem;
   }
 }
 

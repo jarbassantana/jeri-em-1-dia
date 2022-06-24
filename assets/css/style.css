@@ -1592,43 +1592,57 @@ header .nav-menu .btn-login:hover {
 }
 
 @media (max-width: 767px) {
-  /* line 277, ../jeri/assets/scss/_checkout.scss */
-  .checkout-container .info-passeio-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  /* line 282, ../jeri/assets/scss/_checkout.scss */
+  /* line 279, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .personal-data-container .personal-data-content .personal-cpf-content {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 288, ../jeri/assets/scss/_checkout.scss */
+  /* line 285, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .address-data-content .cep-column {
     max-width: 100% !important;
   }
-  /* line 291, ../jeri/assets/scss/_checkout.scss */
+  /* line 288, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .address-data-content .district-column {
     max-width: 100% !important;
   }
-  /* line 294, ../jeri/assets/scss/_checkout.scss */
+  /* line 291, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .address-data-content .address-state-and-city-content {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 297, ../jeri/assets/scss/_checkout.scss */
+  /* line 294, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .address-data-content .address-road-and-number-content {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 301, ../jeri/assets/scss/_checkout.scss */
+  /* line 298, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .date-tour-content {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 306, ../jeri/assets/scss/_checkout.scss */
+  /* line 303, ../jeri/assets/scss/_checkout.scss */
   .checkout-container .payment-data-content .month-and-year-content {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 475px) {
+  /* line 312, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .info-passeio-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 314, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .info-passeio-container .ps-column-1 {
+    max-width: none;
+  }
+}
+
+@media (max-width: 360px) {
+  /* line 322, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container {
+    padding: 1.6rem;
   }
 }
 
