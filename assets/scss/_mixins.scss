@@ -1,0 +1,58 @@
+@mixin label {
+  font-size: 1.2rem;
+  font-weight: $regular;
+  line-height: 120%;
+  color: #000;
+}
+
+@mixin input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: $regular;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+  &:focus {
+    border-color: $brand-orange-primary;
+  }
+}
+
+@mixin d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/angle-down.svg") 95.5% 50% no-repeat;
+}
+
+@mixin cta-primary{
+  margin-top: 4.8rem;
+  display: inline-block;
+  padding: 1.4rem 6.85rem;
+  color: $brand-white;
+  background-color: $brand-orange-primary;
+  border: 1px solid $border-btn;
+  border-radius: 5px;
+  text-transform: uppercase;
+  line-height: 120%;
+  box-shadow: 0px 4px 40px 0px rgba(242, 118, 46, 0.4);
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    color: $brand-orange-primary;
+    border: 1px solid $brand-orange-primary;
+  }
+}
+
+@mixin d-flex-responsive{
+  display: flex;
+  flex-wrap: wrap;
+}

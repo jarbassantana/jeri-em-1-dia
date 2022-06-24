@@ -1,5 +1,313 @@
+@import "_mixins";
 @import "_header";
 
+.checkout-container{
+  width: 100%;
+  max-width: 69.6rem;
+  padding: 3.2rem;
+  margin: 3.2rem auto 0 auto;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  .info-passeio-container{
+    display: flex;
+    gap: 3.2rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid $border-color;
+    .ps-column-1{
+      width: 100%;
+      max-width: 21.3rem;
+      img{
+        width: 100%;
+      }
+    }
+    .ps-column-2{
+      width: 100%;
+      @include d-flex;
+      gap: 1rem;
+      h3{
+        font-weight: $bold;
+        line-height: 120%;
+        font-size: 2.4rem;
+        color: $brand-black-secondary;
+      }
+      h2{
+        font-size: 3.2rem;
+        font-weight: $black;
+        color: $brand-orange-primary;
+        line-height: 120%;
+      }
+      span{
+        display: block;
+        line-height: 120%;
+        font-weight: $bold;
+        font-size: 1.2rem;
+        color: $brand-orange-primary;
+      }
+      p{
+        font-size: 1.2rem;
+        font-weight: $bold;
+        line-height: 120%;
+        color: #AEB5BB;
+      }
+    }
+  }
+  .personal-data-container{
+    
+    h4{
+      font-size: 1.6rem;
+      font-weight: $bold;
+      line-height: 120%;
+      margin-top: 3.2rem;
+    }
+    
+    .personal-data-content{
+      @include d-flex;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 3.2rem;
+      .personal-column{
+        @include d-flex;
+        margin-top: 1.6rem;
+        label {
+          @include label;
+        }
+        input{
+          @include input;
+        }
+      }
+      .personal-cpf-content{
+        display: flex;
+        gap: 1.6rem;
+        margin-top: 1.6rem;
+        .cpf-column, .tel-column{
+          @include d-flex;
+          width: 100%;
+          label {
+            @include label;
+          }
+          input{
+            @include input;
+          }
+        }
+      }
+    }
+    
+    .address-data-content{
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 3.2rem;
+      .cep-column{
+        @include d-flex;
+        width: 100%;
+        max-width: 30.7rem;
+        margin-top: 1.6rem;
+        
+        label{
+          @include label;
+        }
+        input{
+          @include input;
+        }
+      }
+      .address-state-and-city-content{
+        display: flex;
+        gap: 1.6rem;
+        .address-columns{
+          @include d-flex;
+          width: 100%;
+          opacity: 27%;
+          margin-top: 1.6rem;
+          label{
+            @include label;
+            
+          }
+          input{
+            @include input;
+            border: 1px dashed #686868;
+          }
+        }
+        
+      }
+      
+      .district-column{
+        @include d-flex;
+        margin-top: 1.6rem;
+        max-width: 30.7rem;
+        width: 100%;
+        label{
+          @include label;
+        }
 
+        input{
+          @include input;
+        }
+      }
+
+      .address-road-and-number-content{
+        display: flex;
+        gap: 1.6rem;
+        margin-top: 1.6rem;
+        .road-column, .number-column{
+          @include d-flex;
+          width: 100%;
+          label{
+            @include label;
+          }
+          input{
+            @include input;
+          }
+        }
+      }
+    }
+
+    .date-tour-content{
+      display: flex;
+      gap: 1.6rem;
+      border-bottom: 1px solid  $border-color;
+      padding-bottom: 3.2rem;
+      .date-tour-columns{
+        margin-top: 1.6rem;
+        width: 100%;
+        @include d-flex;
+
+        label {
+          @include label;
+        }
+        select{
+          @include select;
+          @include input;
+          color: #686868;
+        }
+        
+
+        input {
+          @include input;
+          border: 1px dashed #686868;
+          opacity: 50%;
+        }
+      }
+    }
+
+    .boarding-place-content{
+      margin-top: 3.2rem;
+      @include d-flex;
+      label {
+        font-size: 1.6rem;
+        font-weight: $bold;
+        line-height: 120%;
+      }
+      input{
+        @include input;
+      }
+    }
+
+    .payment-data-content{
+      margin-top: 3.2rem;
+      padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+      border: 1px solid $border-color;
+      border-radius: 5px;
+      .payment-data-columns{
+        @include d-flex;
+        label{
+          margin-top: 1.6rem;
+          @include label;
+        }
+        input{
+          @include input;
+        }
+      }
+      .month-and-year-content{
+        display: flex;
+        margin-top: 1.6rem;
+        gap: 1.6rem;
+        .month-and-year-columns{
+          width: 100%;
+          @include d-flex;
+          label{
+            @include label;
+          }
+          select{
+            @include select;
+            @include input;
+          }
+          input{
+            @include input;
+          }
+        }
+      }
+    }
+
+    .number-of-installments-content{
+      margin-top: 1.6rem;
+      @include d-flex;
+      label {
+        @include label;
+      }
+
+      select{
+        @include select;
+        @include input;
+      }
+    }
+
+    .details-title{
+      color: #686868;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 1rem;
+    }
+    .purchase-details-content{
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    button[type="submit"]{
+      @include cta-primary;
+      max-width: 100%;
+      width: 100%;
+      margin-top: 3.2rem;
+      box-shadow: none;
+      padding: 1.4rem 0;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .checkout-container{
+    .info-passeio-container{
+      @include d-flex-responsive;
+    }
+    .personal-data-container{
+      .personal-data-content{
+        .personal-cpf-content{
+          @include d-flex-responsive;
+        }
+      }
+    }
+    .address-data-content{
+      .cep-column{
+        max-width: 100% !important;
+      }
+      .district-column{
+        max-width: 100% !important;
+      }
+      .address-state-and-city-content{
+        @include d-flex-responsive;
+      }
+      .address-road-and-number-content{
+        @include d-flex-responsive;
+      }
+    }
+    .date-tour-content{
+      @include d-flex-responsive;
+    }
+
+    .payment-data-content{
+      .month-and-year-content{
+        @include d-flex-responsive;
+      }
+    }
+  }
+}
 
 @import "_footer";

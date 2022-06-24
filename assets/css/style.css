@@ -96,20 +96,20 @@ header .nav-menu .btn-login:hover {
   }
 }
 
-/* line 3, ../jeri/assets/scss/_home.scss */
+/* line 4, ../jeri/assets/scss/_home.scss */
 .hero-section {
   background-color: #fff6f1;
   padding-top: 2.4rem;
 }
 
-/* line 6, ../jeri/assets/scss/_home.scss */
+/* line 7, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 12, ../jeri/assets/scss/_home.scss */
+/* line 13, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-1 h1 {
   color: #F2762E;
   font-weight: 900;
@@ -117,7 +117,7 @@ header .nav-menu .btn-login:hover {
   font-size: 5.6rem;
 }
 
-/* line 18, ../jeri/assets/scss/_home.scss */
+/* line 19, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-1 h2 {
   font-size: 2.4rem;
   line-height: 120%;
@@ -126,19 +126,19 @@ header .nav-menu .btn-login:hover {
   color: #0D0D0D;
 }
 
-/* line 26, ../jeri/assets/scss/_home.scss */
+/* line 27, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-2 {
   width: 100%;
   display: flex;
 }
 
-/* line 29, ../jeri/assets/scss/_home.scss */
+/* line 30, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-2 img {
   max-width: 59.2rem;
   width: 100%;
 }
 
-/* line 36, ../jeri/assets/scss/_home.scss */
+/* line 37, ../jeri/assets/scss/_home.scss */
 .btc-cta-primary {
   margin-top: 4.8rem;
   display: inline-block;
@@ -151,16 +151,17 @@ header .nav-menu .btn-login:hover {
   line-height: 120%;
   box-shadow: 0px 4px 40px 0px rgba(242, 118, 46, 0.4);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
-/* line 48, ../jeri/assets/scss/_home.scss */
+/* line 48, ../jeri/assets/scss/_mixins.scss */
 .btc-cta-primary:hover {
   background-color: transparent;
   color: #F2762E;
   border: 1px solid #F2762E;
 }
 
-/* line 55, ../jeri/assets/scss/_home.scss */
+/* line 41, ../jeri/assets/scss/_home.scss */
 .section-2 {
   margin-top: 7.2rem;
   background: url("/assets/img/bg-section-2.jpg") no-repeat center;
@@ -168,14 +169,14 @@ header .nav-menu .btn-login:hover {
   padding-bottom: 4rem;
 }
 
-/* line 60, ../jeri/assets/scss/_home.scss */
+/* line 46, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 {
   display: flex;
   justify-content: space-between;
   gap: 3.2rem;
 }
 
-/* line 64, ../jeri/assets/scss/_home.scss */
+/* line 50, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns {
   width: 25%;
   display: flex;
@@ -183,13 +184,13 @@ header .nav-menu .btn-login:hover {
   align-items: center;
 }
 
-/* line 69, ../jeri/assets/scss/_home.scss */
+/* line 54, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns img {
   width: 100%;
   max-width: 4.8rem;
 }
 
-/* line 73, ../jeri/assets/scss/_home.scss */
+/* line 58, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns h3 {
   font-size: 2rem;
   color: #F2762E;
@@ -200,7 +201,7 @@ header .nav-menu .btn-login:hover {
   text-align: center;
 }
 
-/* line 82, ../jeri/assets/scss/_home.scss */
+/* line 67, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns span {
   text-align: center;
   line-height: 150%;
@@ -208,7 +209,7 @@ header .nav-menu .btn-login:hover {
   color: #686868;
 }
 
-/* line 90, ../jeri/assets/scss/_home.scss */
+/* line 75, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 {
   display: flex;
   margin-top: 7.2rem;
@@ -217,7 +218,7 @@ header .nav-menu .btn-login:hover {
   align-items: center;
 }
 
-/* line 98, ../jeri/assets/scss/_home.scss */
+/* line 83, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-1 h3 {
   color: #F2762E;
   font-size: 4.8rem;
@@ -226,7 +227,7 @@ header .nav-menu .btn-login:hover {
   max-width: 48.6rem;
 }
 
-/* line 105, ../jeri/assets/scss/_home.scss */
+/* line 90, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-1 span {
   font-size: 2.4rem;
   line-height: 120%;
@@ -236,18 +237,18 @@ header .nav-menu .btn-login:hover {
   max-width: 38.3rem;
 }
 
-/* line 114, ../jeri/assets/scss/_home.scss */
+/* line 99, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-2 {
   width: 100%;
   max-width: 61.6rem;
 }
 
-/* line 117, ../jeri/assets/scss/_home.scss */
+/* line 102, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-2 img {
   width: 100%;
 }
 
-/* line 126, ../jeri/assets/scss/_home.scss */
+/* line 111, ../jeri/assets/scss/_home.scss */
 .roadmap-container {
   margin-top: 10rem;
   display: grid;
@@ -255,14 +256,14 @@ header .nav-menu .btn-login:hover {
   gap: 3.2rem;
 }
 
-/* line 132, ../jeri/assets/scss/_home.scss */
+/* line 117, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide {
   max-width: 592px;
   width: 100%;
   padding-bottom: 2rem;
 }
 
-/* line 138, ../jeri/assets/scss/_home.scss */
+/* line 123, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .slide-container .swiper-button-next:after,
 .roadmap-container .column-1__roadmap .roadmap--slide .slide-container .swiper-button-prev:after {
   font-size: 1.8rem;
@@ -270,39 +271,39 @@ header .nav-menu .btn-login:hover {
   color: #F2762E;
 }
 
-/* line 149, ../jeri/assets/scss/_home.scss */
+/* line 134, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-wrapper .swiper-slide img {
   max-width: 59.2rem;
   width: 100%;
   border-radius: 5px;
 }
 
-/* line 156, ../jeri/assets/scss/_home.scss */
+/* line 141, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination {
   bottom: 0;
   position: absolute;
 }
 
-/* line 160, ../jeri/assets/scss/_home.scss */
+/* line 145, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination-bullet {
   transition: all 0.3s ease;
 }
 
-/* line 163, ../jeri/assets/scss/_home.scss */
+/* line 148, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination-bullet-active {
   background: #F2762E;
   width: 14px;
   border-radius: 4px;
 }
 
-/* line 169, ../jeri/assets/scss/_home.scss */
+/* line 154, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos {
   display: flex;
   gap: 3.2rem;
   margin-top: 2.6rem;
 }
 
-/* line 175, ../jeri/assets/scss/_home.scss */
+/* line 160, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include h3,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude h3 {
   color: #F2762E;
@@ -311,7 +312,7 @@ header .nav-menu .btn-login:hover {
   line-height: 120%;
 }
 
-/* line 181, ../jeri/assets/scss/_home.scss */
+/* line 166, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul {
   list-style: none;
@@ -320,7 +321,7 @@ header .nav-menu .btn-login:hover {
   gap: 1rem;
 }
 
-/* line 186, ../jeri/assets/scss/_home.scss */
+/* line 171, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul li,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul li {
   display: flex;
@@ -328,13 +329,13 @@ header .nav-menu .btn-login:hover {
   gap: 1rem;
 }
 
-/* line 190, ../jeri/assets/scss/_home.scss */
+/* line 175, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul li span,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul li span {
   display: block;
 }
 
-/* line 199, ../jeri/assets/scss/_home.scss */
+/* line 184, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap h3 {
   font-size: 4.8rem;
   line-height: 120%;
@@ -342,14 +343,14 @@ header .nav-menu .btn-login:hover {
   color: #F2762E;
 }
 
-/* line 205, ../jeri/assets/scss/_home.scss */
+/* line 190, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap .c2-roadmap-content {
   margin-top: 2.4rem;
   display: grid;
   gap: 1rem;
 }
 
-/* line 209, ../jeri/assets/scss/_home.scss */
+/* line 194, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap .c2-roadmap-content p {
   font-size: 1.6rem;
   color: #0D0D0D;
@@ -357,14 +358,14 @@ header .nav-menu .btn-login:hover {
   line-height: 150%;
 }
 
-/* line 221, ../jeri/assets/scss/_home.scss */
+/* line 206, ../jeri/assets/scss/_home.scss */
 .faq-container {
   margin-top: 12rem;
   max-width: 52.3rem;
   width: 100%;
 }
 
-/* line 225, ../jeri/assets/scss/_home.scss */
+/* line 210, ../jeri/assets/scss/_home.scss */
 .faq-container h3 {
   font-size: 4.8rem;
   text-transform: uppercase;
@@ -374,7 +375,7 @@ header .nav-menu .btn-login:hover {
   text-align: center;
 }
 
-/* line 233, ../jeri/assets/scss/_home.scss */
+/* line 218, ../jeri/assets/scss/_home.scss */
 .faq-container span {
   font-size: 2.4rem;
   line-height: 120%;
@@ -384,7 +385,7 @@ header .nav-menu .btn-login:hover {
   display: block;
 }
 
-/* line 248, ../jeri/assets/scss/_home.scss */
+/* line 227, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container {
   display: grid;
   gap: 2.4rem;
@@ -392,14 +393,14 @@ header .nav-menu .btn-login:hover {
   margin-top: 4.8rem;
 }
 
-/* line 253, ../jeri/assets/scss/_home.scss */
+/* line 232, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item {
   border: 1px solid #F2762E;
   border-radius: 5px;
   padding: 1.6rem 0;
 }
 
-/* line 257, ../jeri/assets/scss/_home.scss */
+/* line 236, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header {
   font-size: 2rem;
   font-weight: 700;
@@ -413,28 +414,28 @@ header .nav-menu .btn-login:hover {
   align-items: center;
 }
 
-/* line 268, ../jeri/assets/scss/_home.scss */
+/* line 247, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header::after {
   content: url(../img/arrow-right.svg);
   font-size: 2rem;
   transition: all 0.2s linear;
 }
 
-/* line 273, ../jeri/assets/scss/_home.scss */
+/* line 252, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header.active::after {
   transition: all 0.2s linear;
   content: url(../img/arrow-right.svg);
   transform: rotate(45deg);
 }
 
-/* line 279, ../jeri/assets/scss/_home.scss */
+/* line 258, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
 }
 
-/* line 285, ../jeri/assets/scss/_home.scss */
+/* line 264, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-body .accordion-item-body-content {
   border-top: 1px solid;
   border-image: linear-gradient(to right, transparent, #F2762E, transparent) 1;
@@ -446,12 +447,12 @@ header .nav-menu .btn-login:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 302, ../jeri/assets/scss/_home.scss */
+  /* line 281, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 {
     display: flex;
     justify-content: center;
   }
-  /* line 308, ../jeri/assets/scss/_home.scss */
+  /* line 287, ../jeri/assets/scss/_home.scss */
   .roadmap-container {
     display: grid;
     grid-template-columns: 100%;
@@ -459,27 +460,27 @@ header .nav-menu .btn-login:hover {
 }
 
 @media (max-width: 912px) {
-  /* line 316, ../jeri/assets/scss/_home.scss */
+  /* line 295, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
-  /* line 320, ../jeri/assets/scss/_home.scss */
+  /* line 298, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 {
     margin: auto;
   }
-  /* line 322, ../jeri/assets/scss/_home.scss */
+  /* line 300, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 h1 {
     text-align: center;
     font-size: 4rem;
   }
-  /* line 326, ../jeri/assets/scss/_home.scss */
+  /* line 304, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 h2 {
     text-align: center;
     font-size: 2rem;
   }
-  /* line 330, ../jeri/assets/scss/_home.scss */
+  /* line 308, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 a {
     margin: 4.8rem auto 0 auto;
     display: block;
@@ -488,54 +489,54 @@ header .nav-menu .btn-login:hover {
     text-align: center;
     max-width: 28rem;
   }
-  /* line 339, ../jeri/assets/scss/_home.scss */
+  /* line 317, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 {
     display: flex;
     justify-content: center;
   }
-  /* line 346, ../jeri/assets/scss/_home.scss */
+  /* line 324, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /* line 349, ../jeri/assets/scss/_home.scss */
+  /* line 327, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 .columns {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 357, ../jeri/assets/scss/_home.scss */
+  /* line 335, ../jeri/assets/scss/_home.scss */
   html {
     font-size: 56.25%;
   }
-  /* line 361, ../jeri/assets/scss/_home.scss */
+  /* line 339, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
-  /* line 366, ../jeri/assets/scss/_home.scss */
+  /* line 343, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     order: 1;
   }
-  /* line 371, ../jeri/assets/scss/_home.scss */
+  /* line 347, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 h3 {
     font-size: 3.2rem;
     width: 100%;
     max-width: 100%;
   }
-  /* line 376, ../jeri/assets/scss/_home.scss */
+  /* line 352, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 span {
     font-size: 2rem;
     display: block;
     width: 100%;
     max-width: 100%;
   }
-  /* line 382, ../jeri/assets/scss/_home.scss */
+  /* line 358, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 a {
     margin: 4.8rem auto 0 auto;
     display: block;
@@ -547,67 +548,67 @@ header .nav-menu .btn-login:hover {
 }
 
 @media (max-width: 475px) {
-  /* line 399, ../jeri/assets/scss/_home.scss */
+  /* line 375, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 a {
     max-width: 100%;
   }
-  /* line 404, ../jeri/assets/scss/_home.scss */
+  /* line 380, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 img {
     max-width: 100%;
     width: 100%;
     height: auto;
   }
-  /* line 415, ../jeri/assets/scss/_home.scss */
+  /* line 391, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 a {
     max-width: 100%;
   }
-  /* line 423, ../jeri/assets/scss/_home.scss */
+  /* line 399, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-1__roadmap .roadmap-infos {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 429, ../jeri/assets/scss/_home.scss */
+  /* line 405, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include h3,
   .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude h3 {
     font-size: 2rem;
   }
-  /* line 435, ../jeri/assets/scss/_home.scss */
+  /* line 411, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap {
     display: flex;
     flex-direction: column;
   }
-  /* line 439, ../jeri/assets/scss/_home.scss */
+  /* line 413, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap h3 {
     font-size: 3.2rem;
   }
-  /* line 442, ../jeri/assets/scss/_home.scss */
+  /* line 416, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap a {
     width: 100%;
     text-align: center;
     padding: 1.4rem 0;
     margin: 4.8rem auto 0 auto;
   }
-  /* line 452, ../jeri/assets/scss/_home.scss */
+  /* line 426, ../jeri/assets/scss/_home.scss */
   .faq-container h3 {
     font-size: 3.2rem;
   }
-  /* line 455, ../jeri/assets/scss/_home.scss */
+  /* line 429, ../jeri/assets/scss/_home.scss */
   .faq-container span {
     font-size: 2rem;
   }
-  /* line 461, ../jeri/assets/scss/_home.scss */
+  /* line 435, ../jeri/assets/scss/_home.scss */
   .faq-container .faq-accordeon-container .accordion-item .accordion-item-header {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 360px) {
-  /* line 471, ../jeri/assets/scss/_home.scss */
+  /* line 445, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 {
     display: grid;
     grid-template-columns: 1fr;
   }
-  /* line 476, ../jeri/assets/scss/_home.scss */
+  /* line 450, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 .columns h3 {
     font-size: 1.8rem;
   }
@@ -773,7 +774,7 @@ footer .copyright-container span {
   }
 }
 
-/* line 1, ../jeri/assets/scss/_login.scss */
+/* line 3, ../jeri/assets/scss/_login.scss */
 .login {
   display: flex;
   background: url(../img/background-login.jpg) no-repeat left center;
@@ -782,12 +783,12 @@ footer .copyright-container span {
   width: 100%;
 }
 
-/* line 8, ../jeri/assets/scss/_login.scss */
+/* line 10, ../jeri/assets/scss/_login.scss */
 .login .lg-column-1 {
   width: 50%;
 }
 
-/* line 11, ../jeri/assets/scss/_login.scss */
+/* line 13, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 {
   width: 100%;
   display: flex;
@@ -796,13 +797,13 @@ footer .copyright-container span {
   align-items: center;
 }
 
-/* line 17, ../jeri/assets/scss/_login.scss */
+/* line 18, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 img {
   max-width: 20rem;
   width: 100%;
 }
 
-/* line 21, ../jeri/assets/scss/_login.scss */
+/* line 22, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form {
   display: flex;
   flex-direction: column;
@@ -988,6 +989,646 @@ header .nav-menu .btn-login:hover {
     gap: 3.2rem;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+/* line 4, ../jeri/assets/scss/_checkout.scss */
+.checkout-container {
+  width: 100%;
+  max-width: 69.6rem;
+  padding: 3.2rem;
+  margin: 3.2rem auto 0 auto;
+  border: 1px solid #C9CED4;
+  border-radius: 5px;
+}
+
+/* line 11, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container {
+  display: flex;
+  gap: 3.2rem;
+  padding-bottom: 3.2rem;
+  border-bottom: 1px solid #C9CED4;
+}
+
+/* line 16, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-1 {
+  width: 100%;
+  max-width: 21.3rem;
+}
+
+/* line 19, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-1 img {
+  width: 100%;
+}
+
+/* line 23, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* line 27, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-2 h3 {
+  font-weight: 700;
+  line-height: 120%;
+  font-size: 2.4rem;
+  color: #0D0D0D;
+}
+
+/* line 33, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-2 h2 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #F2762E;
+  line-height: 120%;
+}
+
+/* line 39, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-2 span {
+  display: block;
+  line-height: 120%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #F2762E;
+}
+
+/* line 46, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .info-passeio-container .ps-column-2 p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: #AEB5BB;
+}
+
+/* line 56, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 3.2rem;
+}
+
+/* line 63, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #C9CED4;
+  padding-bottom: 3.2rem;
+}
+
+/* line 67, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+}
+
+/* line 70, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-column label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 73, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-column input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-column input:focus {
+  border-color: #F2762E;
+}
+
+/* line 77, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-cpf-content {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+/* line 81, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-cpf-content .cpf-column, .checkout-container .personal-data-container .personal-data-content .personal-cpf-content .tel-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* line 84, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-cpf-content .cpf-column label, .checkout-container .personal-data-container .personal-data-content .personal-cpf-content .tel-column label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 87, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-cpf-content .cpf-column input, .checkout-container .personal-data-container .personal-data-content .personal-cpf-content .tel-column input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .personal-data-content .personal-cpf-content .cpf-column input:focus, .checkout-container .personal-data-container .personal-data-content .personal-cpf-content .tel-column input:focus {
+  border-color: #F2762E;
+}
+
+/* line 94, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content {
+  border-bottom: 1px solid #C9CED4;
+  padding-bottom: 3.2rem;
+}
+
+/* line 97, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .cep-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30.7rem;
+  margin-top: 1.6rem;
+}
+
+/* line 103, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .cep-column label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 106, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .cep-column input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .address-data-content .cep-column input:focus {
+  border-color: #F2762E;
+}
+
+/* line 110, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-state-and-city-content {
+  display: flex;
+  gap: 1.6rem;
+}
+
+/* line 113, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-state-and-city-content .address-columns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  opacity: 27%;
+  margin-top: 1.6rem;
+}
+
+/* line 118, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-state-and-city-content .address-columns label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 122, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-state-and-city-content .address-columns input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+  border: 1px dashed #686868;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .address-data-content .address-state-and-city-content .address-columns input:focus {
+  border-color: #F2762E;
+}
+
+/* line 130, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .district-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  max-width: 30.7rem;
+  width: 100%;
+}
+
+/* line 135, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .district-column label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 139, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .district-column input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .address-data-content .district-column input:focus {
+  border-color: #F2762E;
+}
+
+/* line 144, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-road-and-number-content {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+/* line 148, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-road-and-number-content .road-column, .checkout-container .personal-data-container .address-data-content .address-road-and-number-content .number-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* line 151, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-road-and-number-content .road-column label, .checkout-container .personal-data-container .address-data-content .address-road-and-number-content .number-column label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 154, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .address-data-content .address-road-and-number-content .road-column input, .checkout-container .personal-data-container .address-data-content .address-road-and-number-content .number-column input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .address-data-content .address-road-and-number-content .road-column input:focus, .checkout-container .personal-data-container .address-data-content .address-road-and-number-content .number-column input:focus {
+  border-color: #F2762E;
+}
+
+/* line 161, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .date-tour-content {
+  display: flex;
+  gap: 1.6rem;
+  border-bottom: 1px solid #C9CED4;
+  padding-bottom: 3.2rem;
+}
+
+/* line 166, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns {
+  margin-top: 1.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 171, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 174, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/angle-down.svg") 95.5% 50% no-repeat;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+  color: #686868;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns select:focus {
+  border-color: #F2762E;
+}
+
+/* line 181, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+  border: 1px dashed #686868;
+  opacity: 50%;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .date-tour-content .date-tour-columns input:focus {
+  border-color: #F2762E;
+}
+
+/* line 189, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .boarding-place-content {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 192, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .boarding-place-content label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+/* line 197, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .boarding-place-content input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .boarding-place-content input:focus {
+  border-color: #F2762E;
+}
+
+/* line 202, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content {
+  margin-top: 3.2rem;
+  padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+  border: 1px solid #C9CED4;
+  border-radius: 5px;
+}
+
+/* line 207, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .payment-data-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 209, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .payment-data-columns label {
+  margin-top: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 213, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .payment-data-columns input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .payment-data-content .payment-data-columns input:focus {
+  border-color: #F2762E;
+}
+
+/* line 217, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content {
+  display: flex;
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+}
+
+/* line 221, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 224, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 227, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/angle-down.svg") 95.5% 50% no-repeat;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns select:focus {
+  border-color: #F2762E;
+}
+
+/* line 231, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns input {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .payment-data-content .month-and-year-content .month-and-year-columns input:focus {
+  border-color: #F2762E;
+}
+
+/* line 238, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .number-of-installments-content {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 241, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .number-of-installments-content label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%;
+  color: #000;
+}
+
+/* line 245, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .number-of-installments-content select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/angle-down.svg") 95.5% 50% no-repeat;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 400;
+  border: 1px solid #aeb5bb;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 5px;
+  color: #686868;
+  transition: border-color 0.2s ease-in;
+}
+
+/* line 18, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container .number-of-installments-content select:focus {
+  border-color: #F2762E;
+}
+
+/* line 251, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .details-title {
+  color: #686868;
+  border-bottom: 1px solid #C9CED4;
+  padding-bottom: 1rem;
+}
+
+/* line 256, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container .purchase-details-content {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 263, ../jeri/assets/scss/_checkout.scss */
+.checkout-container .personal-data-container button[type="submit"] {
+  margin-top: 4.8rem;
+  display: inline-block;
+  padding: 1.4rem 6.85rem;
+  color: #fff;
+  background-color: #F2762E;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  text-transform: uppercase;
+  line-height: 120%;
+  box-shadow: 0px 4px 40px 0px rgba(242, 118, 46, 0.4);
+  transition: all 0.5s;
+  cursor: pointer;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 3.2rem;
+  box-shadow: none;
+  padding: 1.4rem 0;
+}
+
+/* line 48, ../jeri/assets/scss/_mixins.scss */
+.checkout-container .personal-data-container button[type="submit"]:hover {
+  background-color: transparent;
+  color: #F2762E;
+  border: 1px solid #F2762E;
+}
+
+@media (max-width: 767px) {
+  /* line 277, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .info-passeio-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 282, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .personal-data-container .personal-data-content .personal-cpf-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 288, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .address-data-content .cep-column {
+    max-width: 100% !important;
+  }
+  /* line 291, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .address-data-content .district-column {
+    max-width: 100% !important;
+  }
+  /* line 294, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .address-data-content .address-state-and-city-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 297, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .address-data-content .address-road-and-number-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 301, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .date-tour-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 306, ../jeri/assets/scss/_checkout.scss */
+  .checkout-container .payment-data-content .month-and-year-content {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
