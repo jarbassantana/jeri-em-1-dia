@@ -23,6 +23,25 @@ header {
         color: $brand-orange-primary;
       }
     }
+
+    .nav-menu-options{
+      list-style: none;
+      display: flex;
+      gap: 1.6rem;
+      li{
+        a{
+          color: $brand-white;
+          font-size: 1.6rem;
+          font-weight: $regular;
+          transition: all .3s ease;
+          display: inline-block;
+          
+          &:hover{
+            font-weight: $black;
+          }
+        }
+      }
+    }
   }
 }
 
