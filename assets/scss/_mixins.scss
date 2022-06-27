@@ -114,3 +114,91 @@
     color: #686868;
   }
 }
+
+@mixin exit-button{
+  .exit-container{
+    max-width: 100.8rem;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    button{
+      background: $brand-orange-primary;
+      color: $brand-white;
+      max-width: 14.1rem;
+      width: 100%;
+      font-size: 1.6rem;
+      line-height: 120%;
+      font-weight: $regular;
+      display: flex;
+      justify-content: center;
+      padding: 1.2rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.26);
+      border-radius: 5px;
+      align-items: center;
+      cursor: pointer;
+      transition: all .3s ease;
+      gap: 0;
+      svg{
+        width: 2rem;
+        height: 2.1rem;
+        path{
+          stroke: $brand-white;
+          transition: all .3s ease;
+        }
+      }
+      &:hover{
+        background-color: transparent;
+        color: $brand-orange-primary;
+        border: 1px solid $brand-orange-primary;
+        gap: 1rem;
+        svg {
+          path{
+            stroke: $brand-orange-primary;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+@mixin dashboard-responsive{
+  .data-section{
+    .data-container{
+      .data-body-content{
+        .body-form-content{
+          .body-form-row-1, .body-form-row-2, .body-form-row-3{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            div{
+              max-width: 100%;
+            }
+          }
+        }
+      }
+
+      .card-content{
+        .card-info-payment-content{
+          flex-wrap: wrap;
+          gap: 3.2rem;
+          justify-content: center;
+          .card-info-payment{
+            width: 100%;
+            .cd-payment-info-content{
+              width: 100%;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  
+  .exit-section{
+    .exit-container{
+      padding: 0 1.6rem;
+    }
+  }
+}

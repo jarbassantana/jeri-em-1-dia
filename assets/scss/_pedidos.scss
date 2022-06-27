@@ -1,3 +1,66 @@
-.profile-section{
+.profile-section {
   @include profile;
+}
+
+.requests-section {
+  margin-top: 6.4rem;
+  padding: 0 1.6rem;
+  .requests-container {
+    padding: 3.2rem;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    h3 {
+      font-size: 2.4rem;
+      font-weight: $bold;
+      color: $brand-orange-primary;
+      line-height: 120%;
+    }
+    .request-container {
+      margin-top: 3.2rem;
+      border-radius: 8px 8px 0 0;
+      overflow: auto;
+
+      table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+        min-width: 100rem;
+        overflow-x: scroll;
+        background-color: #F5F5F5;
+        border-radius: 8px 8px 0 0;
+        thead {
+          overflow: hidden;
+          width: 100%;
+          tr {
+            height: 5.4rem;
+            color: $brand-black;
+            &:first-child {
+              background-color: $brand-orange-primary;
+              border: none;
+              color: $brand-white;
+            }
+          }
+        }
+        tbody {
+          border-radius: 8px 8px 0 0;
+          width: 100%;
+          tr {
+            height: 5.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.exit-section{
+  @include exit-button;
+  .exit-container{
+    margin-top: 3.2rem;
+    max-width: 121.6rem;
+  }
+}
+
+@media (max-width: 1256px) {
+  @include dashboard-responsive;
 }

@@ -2206,7 +2206,7 @@ footer .copyright-container span {
   color: #686868;
 }
 
-/* line 164, ../jeri/assets/scss/_dashboard.scss */
+/* line 119, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container {
   max-width: 100.8rem;
   padding: 0;
@@ -2215,7 +2215,7 @@ footer .copyright-container span {
   width: 100%;
 }
 
-/* line 170, ../jeri/assets/scss/_dashboard.scss */
+/* line 125, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container button {
   background: #F2762E;
   color: #fff;
@@ -2235,19 +2235,19 @@ footer .copyright-container span {
   gap: 0;
 }
 
-/* line 187, ../jeri/assets/scss/_dashboard.scss */
+/* line 142, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container button svg {
   width: 2rem;
   height: 2.1rem;
 }
 
-/* line 190, ../jeri/assets/scss/_dashboard.scss */
+/* line 145, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container button svg path {
   stroke: #fff;
   transition: all .3s ease;
 }
 
-/* line 195, ../jeri/assets/scss/_dashboard.scss */
+/* line 150, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container button:hover {
   background-color: transparent;
   color: #F2762E;
@@ -2255,37 +2255,37 @@ footer .copyright-container span {
   gap: 1rem;
 }
 
-/* line 201, ../jeri/assets/scss/_dashboard.scss */
+/* line 156, ../jeri/assets/scss/_mixins.scss */
 .exit-section .exit-container button:hover svg path {
   stroke: #F2762E;
 }
 
 @media (max-width: 1060px) {
-  /* line 216, ../jeri/assets/scss/_dashboard.scss */
+  /* line 171, ../jeri/assets/scss/_mixins.scss */
   .data-section .data-container .data-body-content .body-form-content .body-form-row-1, .data-section .data-container .data-body-content .body-form-content .body-form-row-2, .data-section .data-container .data-body-content .body-form-content .body-form-row-3 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  /* line 220, ../jeri/assets/scss/_dashboard.scss */
+  /* line 175, ../jeri/assets/scss/_mixins.scss */
   .data-section .data-container .data-body-content .body-form-content .body-form-row-1 div, .data-section .data-container .data-body-content .body-form-content .body-form-row-2 div, .data-section .data-container .data-body-content .body-form-content .body-form-row-3 div {
     max-width: 100%;
   }
-  /* line 228, ../jeri/assets/scss/_dashboard.scss */
+  /* line 183, ../jeri/assets/scss/_mixins.scss */
   .data-section .data-container .card-content .card-info-payment-content {
     flex-wrap: wrap;
     gap: 3.2rem;
     justify-content: center;
   }
-  /* line 232, ../jeri/assets/scss/_dashboard.scss */
+  /* line 187, ../jeri/assets/scss/_mixins.scss */
   .data-section .data-container .card-content .card-info-payment-content .card-info-payment {
     width: 100%;
   }
-  /* line 234, ../jeri/assets/scss/_dashboard.scss */
+  /* line 189, ../jeri/assets/scss/_mixins.scss */
   .data-section .data-container .card-content .card-info-payment-content .card-info-payment .cd-payment-info-content {
     width: 100%;
   }
-  /* line 245, ../jeri/assets/scss/_dashboard.scss */
+  /* line 200, ../jeri/assets/scss/_mixins.scss */
   .exit-section .exit-container {
     padding: 0 1.6rem;
   }
@@ -2317,6 +2317,166 @@ footer .copyright-container span {
   line-height: 120%;
   font-size: 3.2rem;
   color: #F2762E;
+}
+
+/* line 5, ../jeri/assets/scss/_pedidos.scss */
+.requests-section {
+  margin-top: 6.4rem;
+  padding: 0 1.6rem;
+}
+
+/* line 8, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container {
+  padding: 3.2rem;
+  border: 1px solid #C9CED4;
+  border-radius: 5px;
+}
+
+/* line 12, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #F2762E;
+  line-height: 120%;
+}
+
+/* line 18, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container {
+  margin-top: 3.2rem;
+  border-radius: 8px 8px 0 0;
+  overflow: auto;
+}
+
+/* line 23, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  min-width: 100rem;
+  overflow-x: scroll;
+  background-color: #F5F5F5;
+  border-radius: 8px 8px 0 0;
+}
+
+/* line 31, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table thead {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 34, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table thead tr {
+  height: 5.4rem;
+  color: #000;
+}
+
+/* line 37, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table thead tr:first-child {
+  background-color: #F2762E;
+  border: none;
+  color: #fff;
+}
+
+/* line 44, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table tbody {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+
+/* line 47, ../jeri/assets/scss/_pedidos.scss */
+.requests-section .requests-container .request-container table tbody tr {
+  height: 5.4rem;
+}
+
+/* line 119, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container {
+  max-width: 100.8rem;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* line 125, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container button {
+  background: #F2762E;
+  color: #fff;
+  max-width: 14.1rem;
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 120%;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s ease;
+  gap: 0;
+}
+
+/* line 142, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container button svg {
+  width: 2rem;
+  height: 2.1rem;
+}
+
+/* line 145, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container button svg path {
+  stroke: #fff;
+  transition: all .3s ease;
+}
+
+/* line 150, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container button:hover {
+  background-color: transparent;
+  color: #F2762E;
+  border: 1px solid #F2762E;
+  gap: 1rem;
+}
+
+/* line 156, ../jeri/assets/scss/_mixins.scss */
+.exit-section .exit-container button:hover svg path {
+  stroke: #F2762E;
+}
+
+/* line 58, ../jeri/assets/scss/_pedidos.scss */
+.exit-section .exit-container {
+  margin-top: 3.2rem;
+  max-width: 121.6rem;
+}
+
+@media (max-width: 1256px) {
+  /* line 171, ../jeri/assets/scss/_mixins.scss */
+  .data-section .data-container .data-body-content .body-form-content .body-form-row-1, .data-section .data-container .data-body-content .body-form-content .body-form-row-2, .data-section .data-container .data-body-content .body-form-content .body-form-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  /* line 175, ../jeri/assets/scss/_mixins.scss */
+  .data-section .data-container .data-body-content .body-form-content .body-form-row-1 div, .data-section .data-container .data-body-content .body-form-content .body-form-row-2 div, .data-section .data-container .data-body-content .body-form-content .body-form-row-3 div {
+    max-width: 100%;
+  }
+  /* line 183, ../jeri/assets/scss/_mixins.scss */
+  .data-section .data-container .card-content .card-info-payment-content {
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    justify-content: center;
+  }
+  /* line 187, ../jeri/assets/scss/_mixins.scss */
+  .data-section .data-container .card-content .card-info-payment-content .card-info-payment {
+    width: 100%;
+  }
+  /* line 189, ../jeri/assets/scss/_mixins.scss */
+  .data-section .data-container .card-content .card-info-payment-content .card-info-payment .cd-payment-info-content {
+    width: 100%;
+  }
+  /* line 200, ../jeri/assets/scss/_mixins.scss */
+  .exit-section .exit-container {
+    padding: 0 1.6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
