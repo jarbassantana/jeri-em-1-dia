@@ -3,13 +3,16 @@
 
 .hero-section {
   background-color: #fff6f1;
-  padding-top: 2.4rem;
+  // padding-top: 2.4rem;
   .hero-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // gap: 3.2rem;
 
     .column-1 {
+      // margin-right: 3.2rem;
+      width: 100%;
       h1 {
         color: $brand-orange-primary;
         font-weight: $black;
@@ -26,6 +29,7 @@
     }
     .column-2 {
       width: 100%;
+      padding-left: 3.2rem;
       display: flex;
       img {
         max-width: 59.2rem;

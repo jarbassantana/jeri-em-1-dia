@@ -120,7 +120,6 @@ header .nav-menu .nav-menu-options li a:hover {
 /* line 4, ../jeri/assets/scss/_home.scss */
 .hero-section {
   background-color: #fff6f1;
-  padding-top: 2.4rem;
 }
 
 /* line 7, ../jeri/assets/scss/_home.scss */
@@ -131,6 +130,11 @@ header .nav-menu .nav-menu-options li a:hover {
 }
 
 /* line 13, ../jeri/assets/scss/_home.scss */
+.hero-section .hero-section-container .column-1 {
+  width: 100%;
+}
+
+/* line 16, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-1 h1 {
   color: #F2762E;
   font-weight: 900;
@@ -138,7 +142,7 @@ header .nav-menu .nav-menu-options li a:hover {
   font-size: 5.6rem;
 }
 
-/* line 19, ../jeri/assets/scss/_home.scss */
+/* line 22, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-1 h2 {
   font-size: 2.4rem;
   line-height: 120%;
@@ -147,19 +151,20 @@ header .nav-menu .nav-menu-options li a:hover {
   color: #0D0D0D;
 }
 
-/* line 27, ../jeri/assets/scss/_home.scss */
+/* line 30, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-2 {
   width: 100%;
+  padding-left: 3.2rem;
   display: flex;
 }
 
-/* line 30, ../jeri/assets/scss/_home.scss */
+/* line 34, ../jeri/assets/scss/_home.scss */
 .hero-section .hero-section-container .column-2 img {
   max-width: 59.2rem;
   width: 100%;
 }
 
-/* line 37, ../jeri/assets/scss/_home.scss */
+/* line 41, ../jeri/assets/scss/_home.scss */
 .btc-cta-primary {
   margin-top: 4.8rem;
   display: inline-block;
@@ -182,7 +187,7 @@ header .nav-menu .nav-menu-options li a:hover {
   border: 1px solid #F2762E;
 }
 
-/* line 41, ../jeri/assets/scss/_home.scss */
+/* line 45, ../jeri/assets/scss/_home.scss */
 .section-2 {
   margin-top: 7.2rem;
   background: url("/assets/img/bg-section-2.jpg") no-repeat center;
@@ -190,14 +195,14 @@ header .nav-menu .nav-menu-options li a:hover {
   padding-bottom: 4rem;
 }
 
-/* line 46, ../jeri/assets/scss/_home.scss */
+/* line 50, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 {
   display: flex;
   justify-content: space-between;
   gap: 3.2rem;
 }
 
-/* line 50, ../jeri/assets/scss/_home.scss */
+/* line 54, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns {
   width: 25%;
   display: flex;
@@ -205,13 +210,13 @@ header .nav-menu .nav-menu-options li a:hover {
   align-items: center;
 }
 
-/* line 54, ../jeri/assets/scss/_home.scss */
+/* line 58, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns img {
   width: 100%;
   max-width: 4.8rem;
 }
 
-/* line 58, ../jeri/assets/scss/_home.scss */
+/* line 62, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns h3 {
   font-size: 2rem;
   color: #F2762E;
@@ -222,7 +227,7 @@ header .nav-menu .nav-menu-options li a:hover {
   text-align: center;
 }
 
-/* line 67, ../jeri/assets/scss/_home.scss */
+/* line 71, ../jeri/assets/scss/_home.scss */
 .section-2 .container-1 .columns span {
   text-align: center;
   line-height: 150%;
@@ -230,7 +235,7 @@ header .nav-menu .nav-menu-options li a:hover {
   color: #686868;
 }
 
-/* line 75, ../jeri/assets/scss/_home.scss */
+/* line 79, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 {
   display: flex;
   margin-top: 7.2rem;
@@ -239,7 +244,7 @@ header .nav-menu .nav-menu-options li a:hover {
   align-items: center;
 }
 
-/* line 83, ../jeri/assets/scss/_home.scss */
+/* line 87, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-1 h3 {
   color: #F2762E;
   font-size: 4.8rem;
@@ -248,7 +253,7 @@ header .nav-menu .nav-menu-options li a:hover {
   max-width: 48.6rem;
 }
 
-/* line 90, ../jeri/assets/scss/_home.scss */
+/* line 94, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-1 span {
   font-size: 2.4rem;
   line-height: 120%;
@@ -258,18 +263,18 @@ header .nav-menu .nav-menu-options li a:hover {
   max-width: 38.3rem;
 }
 
-/* line 99, ../jeri/assets/scss/_home.scss */
+/* line 103, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-2 {
   width: 100%;
   max-width: 61.6rem;
 }
 
-/* line 102, ../jeri/assets/scss/_home.scss */
+/* line 106, ../jeri/assets/scss/_home.scss */
 .section-2 .container-2 .column-2 img {
   width: 100%;
 }
 
-/* line 111, ../jeri/assets/scss/_home.scss */
+/* line 115, ../jeri/assets/scss/_home.scss */
 .roadmap-container {
   margin-top: 10rem;
   display: grid;
@@ -277,14 +282,14 @@ header .nav-menu .nav-menu-options li a:hover {
   gap: 3.2rem;
 }
 
-/* line 117, ../jeri/assets/scss/_home.scss */
+/* line 121, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide {
   max-width: 592px;
   width: 100%;
   padding-bottom: 2rem;
 }
 
-/* line 123, ../jeri/assets/scss/_home.scss */
+/* line 127, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .slide-container .swiper-button-next:after,
 .roadmap-container .column-1__roadmap .roadmap--slide .slide-container .swiper-button-prev:after {
   font-size: 1.8rem;
@@ -292,39 +297,39 @@ header .nav-menu .nav-menu-options li a:hover {
   color: #F2762E;
 }
 
-/* line 134, ../jeri/assets/scss/_home.scss */
+/* line 138, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-wrapper .swiper-slide img {
   max-width: 59.2rem;
   width: 100%;
   border-radius: 5px;
 }
 
-/* line 141, ../jeri/assets/scss/_home.scss */
+/* line 145, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination {
   bottom: 0;
   position: absolute;
 }
 
-/* line 145, ../jeri/assets/scss/_home.scss */
+/* line 149, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination-bullet {
   transition: all 0.3s ease;
 }
 
-/* line 148, ../jeri/assets/scss/_home.scss */
+/* line 152, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap--slide .swiper-pagination-bullet-active {
   background: #F2762E;
   width: 14px;
   border-radius: 4px;
 }
 
-/* line 154, ../jeri/assets/scss/_home.scss */
+/* line 158, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos {
   display: flex;
   gap: 3.2rem;
   margin-top: 2.6rem;
 }
 
-/* line 160, ../jeri/assets/scss/_home.scss */
+/* line 164, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include h3,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude h3 {
   color: #F2762E;
@@ -333,7 +338,7 @@ header .nav-menu .nav-menu-options li a:hover {
   line-height: 120%;
 }
 
-/* line 166, ../jeri/assets/scss/_home.scss */
+/* line 170, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul {
   list-style: none;
@@ -342,7 +347,7 @@ header .nav-menu .nav-menu-options li a:hover {
   gap: 1rem;
 }
 
-/* line 171, ../jeri/assets/scss/_home.scss */
+/* line 175, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul li,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul li {
   display: flex;
@@ -350,13 +355,13 @@ header .nav-menu .nav-menu-options li a:hover {
   gap: 1rem;
 }
 
-/* line 175, ../jeri/assets/scss/_home.scss */
+/* line 179, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include ul li span,
 .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude ul li span {
   display: block;
 }
 
-/* line 184, ../jeri/assets/scss/_home.scss */
+/* line 188, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap h3 {
   font-size: 4.8rem;
   line-height: 120%;
@@ -364,14 +369,14 @@ header .nav-menu .nav-menu-options li a:hover {
   color: #F2762E;
 }
 
-/* line 190, ../jeri/assets/scss/_home.scss */
+/* line 194, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap .c2-roadmap-content {
   margin-top: 2.4rem;
   display: grid;
   gap: 1rem;
 }
 
-/* line 194, ../jeri/assets/scss/_home.scss */
+/* line 198, ../jeri/assets/scss/_home.scss */
 .roadmap-container .column-2__roadmap .c2-roadmap-content p {
   font-size: 1.6rem;
   color: #0D0D0D;
@@ -379,14 +384,14 @@ header .nav-menu .nav-menu-options li a:hover {
   line-height: 150%;
 }
 
-/* line 206, ../jeri/assets/scss/_home.scss */
+/* line 210, ../jeri/assets/scss/_home.scss */
 .faq-container {
   margin-top: 12rem;
   max-width: 52.3rem;
   width: 100%;
 }
 
-/* line 210, ../jeri/assets/scss/_home.scss */
+/* line 214, ../jeri/assets/scss/_home.scss */
 .faq-container h3 {
   font-size: 4.8rem;
   text-transform: uppercase;
@@ -396,7 +401,7 @@ header .nav-menu .nav-menu-options li a:hover {
   text-align: center;
 }
 
-/* line 218, ../jeri/assets/scss/_home.scss */
+/* line 222, ../jeri/assets/scss/_home.scss */
 .faq-container span {
   font-size: 2.4rem;
   line-height: 120%;
@@ -406,7 +411,7 @@ header .nav-menu .nav-menu-options li a:hover {
   display: block;
 }
 
-/* line 227, ../jeri/assets/scss/_home.scss */
+/* line 231, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container {
   display: grid;
   gap: 2.4rem;
@@ -414,14 +419,14 @@ header .nav-menu .nav-menu-options li a:hover {
   margin-top: 4.8rem;
 }
 
-/* line 232, ../jeri/assets/scss/_home.scss */
+/* line 236, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item {
   border: 1px solid #F2762E;
   border-radius: 5px;
   padding: 1.6rem 0;
 }
 
-/* line 236, ../jeri/assets/scss/_home.scss */
+/* line 240, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header {
   font-size: 2rem;
   font-weight: 700;
@@ -435,28 +440,28 @@ header .nav-menu .nav-menu-options li a:hover {
   align-items: center;
 }
 
-/* line 247, ../jeri/assets/scss/_home.scss */
+/* line 251, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header::after {
   content: url(../img/arrow-right.svg);
   font-size: 2rem;
   transition: all 0.2s linear;
 }
 
-/* line 252, ../jeri/assets/scss/_home.scss */
+/* line 256, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-header.active::after {
   transition: all 0.2s linear;
   content: url(../img/arrow-right.svg);
   transform: rotate(45deg);
 }
 
-/* line 258, ../jeri/assets/scss/_home.scss */
+/* line 262, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
 }
 
-/* line 264, ../jeri/assets/scss/_home.scss */
+/* line 268, ../jeri/assets/scss/_home.scss */
 .faq-container .faq-accordeon-container .accordion-item .accordion-item-body .accordion-item-body-content {
   border-top: 1px solid;
   border-image: linear-gradient(to right, transparent, #F2762E, transparent) 1;
@@ -468,12 +473,12 @@ header .nav-menu .nav-menu-options li a:hover {
 }
 
 @media (max-width: 1024px) {
-  /* line 281, ../jeri/assets/scss/_home.scss */
+  /* line 285, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 {
     display: flex;
     justify-content: center;
   }
-  /* line 287, ../jeri/assets/scss/_home.scss */
+  /* line 291, ../jeri/assets/scss/_home.scss */
   .roadmap-container {
     display: grid;
     grid-template-columns: 100%;
@@ -481,27 +486,27 @@ header .nav-menu .nav-menu-options li a:hover {
 }
 
 @media (max-width: 912px) {
-  /* line 295, ../jeri/assets/scss/_home.scss */
+  /* line 299, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
-  /* line 298, ../jeri/assets/scss/_home.scss */
+  /* line 302, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 {
     margin: auto;
   }
-  /* line 300, ../jeri/assets/scss/_home.scss */
+  /* line 304, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 h1 {
     text-align: center;
     font-size: 4rem;
   }
-  /* line 304, ../jeri/assets/scss/_home.scss */
+  /* line 308, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 h2 {
     text-align: center;
     font-size: 2rem;
   }
-  /* line 308, ../jeri/assets/scss/_home.scss */
+  /* line 312, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 a {
     margin: 4.8rem auto 0 auto;
     display: block;
@@ -510,54 +515,54 @@ header .nav-menu .nav-menu-options li a:hover {
     text-align: center;
     max-width: 28rem;
   }
-  /* line 317, ../jeri/assets/scss/_home.scss */
+  /* line 321, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 {
     display: flex;
     justify-content: center;
   }
-  /* line 324, ../jeri/assets/scss/_home.scss */
+  /* line 328, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /* line 327, ../jeri/assets/scss/_home.scss */
+  /* line 331, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 .columns {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 335, ../jeri/assets/scss/_home.scss */
+  /* line 339, ../jeri/assets/scss/_home.scss */
   html {
     font-size: 56.25%;
   }
-  /* line 339, ../jeri/assets/scss/_home.scss */
+  /* line 343, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
-  /* line 343, ../jeri/assets/scss/_home.scss */
+  /* line 347, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     order: 1;
   }
-  /* line 347, ../jeri/assets/scss/_home.scss */
+  /* line 351, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 h3 {
     font-size: 3.2rem;
     width: 100%;
     max-width: 100%;
   }
-  /* line 352, ../jeri/assets/scss/_home.scss */
+  /* line 356, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 span {
     font-size: 2rem;
     display: block;
     width: 100%;
     max-width: 100%;
   }
-  /* line 358, ../jeri/assets/scss/_home.scss */
+  /* line 362, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 a {
     margin: 4.8rem auto 0 auto;
     display: block;
@@ -569,67 +574,67 @@ header .nav-menu .nav-menu-options li a:hover {
 }
 
 @media (max-width: 475px) {
-  /* line 375, ../jeri/assets/scss/_home.scss */
+  /* line 379, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-1 a {
     max-width: 100%;
   }
-  /* line 380, ../jeri/assets/scss/_home.scss */
+  /* line 384, ../jeri/assets/scss/_home.scss */
   .hero-section .hero-section-container .column-2 img {
     max-width: 100%;
     width: 100%;
     height: auto;
   }
-  /* line 391, ../jeri/assets/scss/_home.scss */
+  /* line 395, ../jeri/assets/scss/_home.scss */
   .section-2 .container-2 .column-1 a {
     max-width: 100%;
   }
-  /* line 399, ../jeri/assets/scss/_home.scss */
+  /* line 403, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-1__roadmap .roadmap-infos {
     display: flex;
     flex-wrap: wrap;
   }
-  /* line 405, ../jeri/assets/scss/_home.scss */
+  /* line 409, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-include h3,
   .roadmap-container .column-1__roadmap .roadmap-infos .roadmap-info-exclude h3 {
     font-size: 2rem;
   }
-  /* line 411, ../jeri/assets/scss/_home.scss */
+  /* line 415, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap {
     display: flex;
     flex-direction: column;
   }
-  /* line 413, ../jeri/assets/scss/_home.scss */
+  /* line 417, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap h3 {
     font-size: 3.2rem;
   }
-  /* line 416, ../jeri/assets/scss/_home.scss */
+  /* line 420, ../jeri/assets/scss/_home.scss */
   .roadmap-container .column-2__roadmap a {
     width: 100%;
     text-align: center;
     padding: 1.4rem 0;
     margin: 4.8rem auto 0 auto;
   }
-  /* line 426, ../jeri/assets/scss/_home.scss */
+  /* line 430, ../jeri/assets/scss/_home.scss */
   .faq-container h3 {
     font-size: 3.2rem;
   }
-  /* line 429, ../jeri/assets/scss/_home.scss */
+  /* line 433, ../jeri/assets/scss/_home.scss */
   .faq-container span {
     font-size: 2rem;
   }
-  /* line 435, ../jeri/assets/scss/_home.scss */
+  /* line 439, ../jeri/assets/scss/_home.scss */
   .faq-container .faq-accordeon-container .accordion-item .accordion-item-header {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 360px) {
-  /* line 445, ../jeri/assets/scss/_home.scss */
+  /* line 449, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 {
     display: grid;
     grid-template-columns: 1fr;
   }
-  /* line 450, ../jeri/assets/scss/_home.scss */
+  /* line 454, ../jeri/assets/scss/_home.scss */
   .section-2 .container-1 .columns h3 {
     font-size: 1.8rem;
   }
@@ -649,7 +654,44 @@ footer .footer-container {
   justify-content: space-between;
 }
 
-/* line 10, ../jeri/assets/scss/_footer.scss */
+/* line 9, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+/* line 13, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo img {
+  max-width: 16.8rem;
+}
+
+/* line 16, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo span {
+  display: block;
+  max-width: 30rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+/* line 25, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo .ft-container-payment strong {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* line 30, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo .ft-container-payment ul {
+  margin-top: 1.6rem;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* line 40, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
   font-size: 2.4rem;
   font-weight: 700;
@@ -658,19 +700,19 @@ footer .footer-container .attendance h3, footer .footer-container .links h3, foo
   margin-bottom: 1.6rem;
 }
 
-/* line 19, ../jeri/assets/scss/_footer.scss */
+/* line 49, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* line 23, ../jeri/assets/scss/_footer.scss */
+/* line 53, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a, footer .footer-container .attendance .attendance-container span {
   color: #fff;
 }
 
-/* line 26, ../jeri/assets/scss/_footer.scss */
+/* line 56, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a {
   display: flex;
   align-items: center;
@@ -687,19 +729,19 @@ footer .footer-container .attendance .attendance-container a {
   cursor: pointer;
 }
 
-/* line 40, ../jeri/assets/scss/_footer.scss */
+/* line 70, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a:hover {
   transform: scale(1.1);
 }
 
-/* line 44, ../jeri/assets/scss/_footer.scss */
+/* line 74, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container span {
   display: flex;
   gap: 1rem;
   line-height: 150%;
 }
 
-/* line 52, ../jeri/assets/scss/_footer.scss */
+/* line 82, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links ul {
   list-style: none;
   display: flex;
@@ -707,30 +749,30 @@ footer .footer-container .links ul {
   gap: 1rem;
 }
 
-/* line 59, ../jeri/assets/scss/_footer.scss */
+/* line 89, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links li {
   transition: transform 0.2s ease;
 }
 
-/* line 61, ../jeri/assets/scss/_footer.scss */
+/* line 91, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links li:hover {
   transform: scale(1.05);
 }
 
-/* line 65, ../jeri/assets/scss/_footer.scss */
+/* line 95, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links a {
   color: #fff;
   line-height: 120%;
 }
 
-/* line 72, ../jeri/assets/scss/_footer.scss */
+/* line 102, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* line 76, ../jeri/assets/scss/_footer.scss */
+/* line 106, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a {
   display: flex;
   gap: 1rem;
@@ -738,40 +780,45 @@ footer .footer-container .social-network .social-network-content a {
   transition: transform 0.2s ease;
 }
 
-/* line 81, ../jeri/assets/scss/_footer.scss */
+/* line 111, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a:hover {
   transform: scale(1.05);
 }
 
-/* line 89, ../jeri/assets/scss/_footer.scss */
+/* line 119, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* line 93, ../jeri/assets/scss/_footer.scss */
+/* line 123, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container span {
   text-align: center;
   color: rgba(255, 255, 255, 0.89);
-  margin-top: 3.2rem;
+  margin-top: 4.8rem;
   font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
-  /* line 106, ../jeri/assets/scss/_footer.scss */
+  /* line 136, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.2rem;
     text-align: center;
   }
-  /* line 112, ../jeri/assets/scss/_footer.scss */
+  /* line 142, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .footer-logo {
+    align-items: center;
+    width: 100%;
+  }
+  /* line 148, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance .attendance-container {
     display: flex;
     align-items: center;
   }
-  /* line 119, ../jeri/assets/scss/_footer.scss */
+  /* line 155, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .social-network .social-network-content a {
     display: flex;
     justify-content: center;
@@ -779,17 +826,22 @@ footer .copyright-container span {
 }
 
 @media (max-width: 475px) {
-  /* line 131, ../jeri/assets/scss/_footer.scss */
+  /* line 167, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3.2rem;
   }
-  /* line 136, ../jeri/assets/scss/_footer.scss */
+  /* line 174, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .footer-logo .ft-container-payment ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 182, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance .attendance-container {
     align-items: center;
   }
-  /* line 141, ../jeri/assets/scss/_footer.scss */
+  /* line 187, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
     font-size: 2rem;
   }
@@ -798,7 +850,6 @@ footer .copyright-container span {
 /* line 3, ../jeri/assets/scss/_login.scss */
 .login {
   display: flex;
-  background: url(../img/background-login.jpg) no-repeat left center;
   background-size: contain;
   height: 100vh;
   width: 100%;
@@ -807,9 +858,23 @@ footer .copyright-container span {
 /* line 10, ../jeri/assets/scss/_login.scss */
 .login .lg-column-1 {
   width: 50%;
+  display: flex;
+  background: url(../img/background-login.jpg) no-repeat left center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* line 13, ../jeri/assets/scss/_login.scss */
+/* line 17, ../jeri/assets/scss/_login.scss */
+.login .lg-column-1 h3 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #fff;
+  max-width: 40rem;
+  text-align: center;
+}
+
+/* line 26, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 {
   width: 100%;
   display: flex;
@@ -818,13 +883,13 @@ footer .copyright-container span {
   align-items: center;
 }
 
-/* line 18, ../jeri/assets/scss/_login.scss */
+/* line 31, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 img {
   max-width: 20rem;
   width: 100%;
 }
 
-/* line 22, ../jeri/assets/scss/_login.scss */
+/* line 35, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form {
   display: flex;
   flex-direction: column;
@@ -832,7 +897,7 @@ footer .copyright-container span {
   max-width: 30.5rem;
 }
 
-/* line 26, ../jeri/assets/scss/_login.scss */
+/* line 39, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form input {
   padding: 1.35rem 0 1.35rem 2.4rem;
   border-radius: 5px;
@@ -843,24 +908,24 @@ footer .copyright-container span {
   transition: border-color 0.2s ease-in;
 }
 
-/* line 34, ../jeri/assets/scss/_login.scss */
+/* line 47, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form input:focus {
   border-color: #F2762E;
 }
 
-/* line 38, ../jeri/assets/scss/_login.scss */
+/* line 51, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form input[type="email"] {
   margin-top: 4.8rem;
   background: #ededed;
 }
 
-/* line 43, ../jeri/assets/scss/_login.scss */
+/* line 56, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form input[type="password"] {
   margin-top: 1.6rem;
   background: #ededed;
 }
 
-/* line 47, ../jeri/assets/scss/_login.scss */
+/* line 60, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form button[type="submit"] {
   margin-top: 3.2rem;
   font-size: 1.6rem;
@@ -873,20 +938,20 @@ footer .copyright-container span {
   transition: all 0.2s ease;
 }
 
-/* line 57, ../jeri/assets/scss/_login.scss */
+/* line 70, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 form button[type="submit"]:hover {
   border: 1px solid #F2762E;
   background: transparent;
   color: #F2762E;
 }
 
-/* line 64, ../jeri/assets/scss/_login.scss */
+/* line 77, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .lg-recovery-pass-content {
   max-width: 30.5rem;
   width: 100%;
 }
 
-/* line 67, ../jeri/assets/scss/_login.scss */
+/* line 80, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .lg-recovery-pass-content a {
   margin-top: 2.4rem;
   display: block;
@@ -894,21 +959,21 @@ footer .copyright-container span {
   transition: color 0.2s ease;
 }
 
-/* line 72, ../jeri/assets/scss/_login.scss */
+/* line 85, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .lg-recovery-pass-content a:hover {
   color: #0D0D0D;
 }
 
-/* line 78, ../jeri/assets/scss/_login.scss */
+/* line 91, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content {
-  margin-top: 14rem;
+  margin-top: 7.2rem;
   padding: 1rem;
   max-width: 26rem;
   width: 100%;
   text-align: center;
 }
 
-/* line 85, ../jeri/assets/scss/_login.scss */
+/* line 98, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a {
   display: inline-flex;
   align-items: center;
@@ -919,53 +984,60 @@ footer .copyright-container span {
   font-size: 1.6rem;
 }
 
-/* line 93, ../jeri/assets/scss/_login.scss */
+/* line 106, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a span {
   display: flex;
 }
 
-/* line 95, ../jeri/assets/scss/_login.scss */
+/* line 108, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a span svg {
   max-width: 24px;
   height: 24px;
   width: 100%;
 }
 
-/* line 99, ../jeri/assets/scss/_login.scss */
+/* line 112, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a span svg path {
   transition: all .2s linear;
   stroke: #F2762E;
 }
 
-/* line 105, ../jeri/assets/scss/_login.scss */
+/* line 118, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a:hover {
   color: #0D0D0D;
 }
 
-/* line 107, ../jeri/assets/scss/_login.scss */
+/* line 120, ../jeri/assets/scss/_login.scss */
 .login .lg-column-2 .back-to-home-content a:hover svg path {
   stroke: #0D0D0D;
 }
 
 @media (max-width: 1440px) {
-  /* line 120, ../jeri/assets/scss/_login.scss */
+  /* line 133, ../jeri/assets/scss/_login.scss */
   .login .lg-column-2 {
     width: 50%;
   }
 }
 
 @media (max-width: 1080px) {
-  /* line 127, ../jeri/assets/scss/_login.scss */
+  /* line 140, ../jeri/assets/scss/_login.scss */
   .login {
     background: none;
   }
-  /* line 129, ../jeri/assets/scss/_login.scss */
+  /* line 142, ../jeri/assets/scss/_login.scss */
   .login .lg-column-1 {
     width: auto;
   }
-  /* line 132, ../jeri/assets/scss/_login.scss */
+  /* line 145, ../jeri/assets/scss/_login.scss */
   .login .lg-column-2 {
     width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 153, ../jeri/assets/scss/_login.scss */
+  .login .lg-column-1 {
+    display: none;
   }
 }
 
@@ -1702,7 +1774,44 @@ footer .footer-container {
   justify-content: space-between;
 }
 
-/* line 10, ../jeri/assets/scss/_footer.scss */
+/* line 9, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+/* line 13, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo img {
+  max-width: 16.8rem;
+}
+
+/* line 16, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo span {
+  display: block;
+  max-width: 30rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+/* line 25, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo .ft-container-payment strong {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* line 30, ../jeri/assets/scss/_footer.scss */
+footer .footer-container .footer-logo .ft-container-payment ul {
+  margin-top: 1.6rem;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* line 40, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
   font-size: 2.4rem;
   font-weight: 700;
@@ -1711,19 +1820,19 @@ footer .footer-container .attendance h3, footer .footer-container .links h3, foo
   margin-bottom: 1.6rem;
 }
 
-/* line 19, ../jeri/assets/scss/_footer.scss */
+/* line 49, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* line 23, ../jeri/assets/scss/_footer.scss */
+/* line 53, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a, footer .footer-container .attendance .attendance-container span {
   color: #fff;
 }
 
-/* line 26, ../jeri/assets/scss/_footer.scss */
+/* line 56, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a {
   display: flex;
   align-items: center;
@@ -1740,19 +1849,19 @@ footer .footer-container .attendance .attendance-container a {
   cursor: pointer;
 }
 
-/* line 40, ../jeri/assets/scss/_footer.scss */
+/* line 70, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container a:hover {
   transform: scale(1.1);
 }
 
-/* line 44, ../jeri/assets/scss/_footer.scss */
+/* line 74, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .attendance .attendance-container span {
   display: flex;
   gap: 1rem;
   line-height: 150%;
 }
 
-/* line 52, ../jeri/assets/scss/_footer.scss */
+/* line 82, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links ul {
   list-style: none;
   display: flex;
@@ -1760,30 +1869,30 @@ footer .footer-container .links ul {
   gap: 1rem;
 }
 
-/* line 59, ../jeri/assets/scss/_footer.scss */
+/* line 89, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links li {
   transition: transform 0.2s ease;
 }
 
-/* line 61, ../jeri/assets/scss/_footer.scss */
+/* line 91, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links li:hover {
   transform: scale(1.05);
 }
 
-/* line 65, ../jeri/assets/scss/_footer.scss */
+/* line 95, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .links a {
   color: #fff;
   line-height: 120%;
 }
 
-/* line 72, ../jeri/assets/scss/_footer.scss */
+/* line 102, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* line 76, ../jeri/assets/scss/_footer.scss */
+/* line 106, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a {
   display: flex;
   gap: 1rem;
@@ -1791,40 +1900,45 @@ footer .footer-container .social-network .social-network-content a {
   transition: transform 0.2s ease;
 }
 
-/* line 81, ../jeri/assets/scss/_footer.scss */
+/* line 111, ../jeri/assets/scss/_footer.scss */
 footer .footer-container .social-network .social-network-content a:hover {
   transform: scale(1.05);
 }
 
-/* line 89, ../jeri/assets/scss/_footer.scss */
+/* line 119, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* line 93, ../jeri/assets/scss/_footer.scss */
+/* line 123, ../jeri/assets/scss/_footer.scss */
 footer .copyright-container span {
   text-align: center;
   color: rgba(255, 255, 255, 0.89);
-  margin-top: 3.2rem;
+  margin-top: 4.8rem;
   font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
-  /* line 106, ../jeri/assets/scss/_footer.scss */
+  /* line 136, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.2rem;
     text-align: center;
   }
-  /* line 112, ../jeri/assets/scss/_footer.scss */
+  /* line 142, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .footer-logo {
+    align-items: center;
+    width: 100%;
+  }
+  /* line 148, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance .attendance-container {
     display: flex;
     align-items: center;
   }
-  /* line 119, ../jeri/assets/scss/_footer.scss */
+  /* line 155, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .social-network .social-network-content a {
     display: flex;
     justify-content: center;
@@ -1832,17 +1946,22 @@ footer .copyright-container span {
 }
 
 @media (max-width: 475px) {
-  /* line 131, ../jeri/assets/scss/_footer.scss */
+  /* line 167, ../jeri/assets/scss/_footer.scss */
   footer .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3.2rem;
   }
-  /* line 136, ../jeri/assets/scss/_footer.scss */
+  /* line 174, ../jeri/assets/scss/_footer.scss */
+  footer .footer-container .footer-logo .ft-container-payment ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 182, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance .attendance-container {
     align-items: center;
   }
-  /* line 141, ../jeri/assets/scss/_footer.scss */
+  /* line 187, ../jeri/assets/scss/_footer.scss */
   footer .footer-container .attendance h3, footer .footer-container .links h3, footer .footer-container .social-network h3 {
     font-size: 2rem;
   }
