@@ -339,6 +339,25 @@
   html {
     font-size: 56.25%;
   }
+
+  .hero-section {
+    .hero-section-container {
+      padding: 0;
+      .column-1 {
+        padding: 3.2rem 1.6rem;
+      }
+      .column-2 {
+        padding: 0;
+        // img {
+        //   max-width: 100%;
+        //   width: 100%;
+        //   height: auto;
+        // }
+      }
+    }
+  }
+
+
   .section-2 {
     .container-2 {
       @include d-flex;
@@ -375,12 +394,15 @@
 @media (max-width: 475px) {
   .hero-section {
     .hero-section-container {
+      padding: 0;
       .column-1 {
+        padding: 3.2rem 1.6rem;
         a {
           max-width: 100%;
         }
       }
       .column-2 {
+        padding: 0;
         img {
           max-width: 100%;
           width: 100%;
