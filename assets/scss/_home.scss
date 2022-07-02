@@ -124,6 +124,36 @@
       padding-bottom: 2rem;
 
       .slide-container {
+        .swiper-button-prev, .swiper-rtl .swiper-button-next {
+          left: 5px;
+          right: auto;
+          width: 4.8rem;
+          height: 4.8rem;
+          border-radius: 50%;
+          background-color: $brand-white;
+          border: 1px solid transparent;
+          transition: all .3s;
+          box-shadow: 0 0 20px #f2762e9f;
+          &:hover{
+            border: 1px solid $brand-orange-primary;
+            background-color: transparent;
+          }
+        }
+        .swiper-button-next, .swiper-rtl .swiper-button-prev {
+          right: 5px;
+          left: auto;
+          width: 4.8rem;
+          height: 4.8rem;
+          border-radius: 50%;
+          background-color: $brand-white;
+          border: 1px solid transparent;
+          transition: all .3s;
+          box-shadow: 0 0 20px #f2762e9f;
+          &:hover{
+            border: 1px solid $brand-orange-primary;
+            background-color: transparent;
+          }
+        }
         .swiper-button-next:after,
         .swiper-button-prev:after {
           font-size: 1.8rem;
@@ -153,6 +183,25 @@
         background: $brand-orange-primary;
         width: 14px;
         border-radius: 4px;
+      }
+    }
+    .roadmap-price{
+      margin: 3.2rem auto;
+      border: 1px solid $brand-orange-primary;
+      padding: 1rem;
+      border-radius: 5px;
+      text-align: center;
+      span{
+        font-size: 2.4rem;
+        font-weight: $black;
+        font-style: italic;
+        // opacity: .8;
+        color: $brand-orange-primary;
+        small{
+          font-size: 1.5rem;
+          color: rgba(0, 0, 0, 0.7);
+          font-weight: $regular;
+        }
       }
     }
     .roadmap-infos {

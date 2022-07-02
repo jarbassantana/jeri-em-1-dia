@@ -1,11 +1,32 @@
 @import "_mixins";
 @import "_header";
 
+.security-section{
+  padding: 1.2rem 0;
+  background: #FFF6F1;
+  .sf-container{
+    display: flex;
+    justify-content: center;
+    .safe-buy{
+      font-size: 1.6rem;
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 120%;
+      font-weight: $regular;
+      display: flex;
+      align-items: center;
+      img{
+        margin-right: 1rem;
+      }
+    }
+  }
+  
+}
+
 .checkout-container{
   width: 100%;
   max-width: 69.6rem;
   padding: 3.2rem;
-  margin: 3.2rem auto 0 auto;
+  margin:  3.2rem  auto 0 auto;
   border: 1px solid $border-color;
   border-radius: 5px;
   .info-passeio-container{
