@@ -127,6 +127,7 @@ header {
 }
 
 .menu-opened {
+  overflow: hidden;
   .nav-menu{
     .btn-mobile{
       z-index: 0;
