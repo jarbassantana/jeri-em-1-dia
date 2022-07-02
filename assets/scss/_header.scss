@@ -6,7 +6,7 @@ header {
       justify-content: space-between;
       align-items: center;
       padding: 2.7rem 1.6rem;
-
+      width: 100%;
       .btn-login {
         @include btn-login;
       }
@@ -41,7 +41,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-
 }
 
 @media (max-width: 475px) {
@@ -52,11 +51,12 @@ header {
       .btn-mobile {
         cursor: pointer;
         display: block;
-      z-index: 2023;
-        
+        z-index: 2023;
       }
       .nav-menu-bar {
-        // display: none;
+        .nav-menu-options {
+          display: none;
+        }
         .btn-login {
           display: none;
         }
@@ -72,7 +72,7 @@ header {
     height: 100%;
     z-index: 2022;
     opacity: 1;
-    pointer-events: all;
+    pointer-events: none;
     .overlay {
       position: fixed;
       top: 0;
@@ -83,6 +83,7 @@ header {
       z-index: 0;
       opacity: 0;
       pointer-events: none;
+      display: none;
     }
     aside {
       position: fixed;
@@ -96,7 +97,25 @@ header {
       justify-content: space-between;
       align-items: center;
       transform: translateX(-100%);
-      transition: transform .3s;
+      transition: transform 0.3s;
+    }
+    .nav-menu-options {
+      @include d-flex;
+      list-style: none;
+      gap: 1.6rem;
+      li {
+        a {
+          color: $brand-white;
+          font-size: 2rem;
+          font-weight: $regular;
+          transition: all 0.3s ease;
+          display: inline-block;
+
+          &:hover {
+            font-weight: $black;
+          }
+        }
+      }
     }
     .btn-login {
       @include btn-login;
@@ -128,33 +147,20 @@ header {
 
 .menu-opened {
   overflow: hidden;
-  .nav-menu{
-    .btn-mobile{
+  .nav-menu {
+    .btn-mobile {
       z-index: 0;
     }
   }
-  .nav-menu-mobile {
-    z-index: 2026;
-    .overlay {
-      pointer-events: all;
-      opacity: 1;
-    }
-    .nav-menu-bar__mobile {
-      opacity: 1;
-      pointer-events: all;
-      transform: translateX(0);
-      z-index: 9;
-    }
+  .overlay {
+    pointer-events: all;
+    opacity: 1;
+    display: block;
+  }
+  .nav-menu-bar__mobile {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(0);
+    z-index: 9;
   }
 }
-
-// @media (max-width: 380px) {
-//   header {
-//     .nav-menu {
-//       display: flex;
-//       gap: 3.2rem;
-//       flex-wrap: wrap;
-//       justify-content: center;
-//     }
-//   }
-// }

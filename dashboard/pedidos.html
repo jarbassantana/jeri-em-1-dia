@@ -12,17 +12,35 @@
 </head>
 
 <body>
-  <header>
-    <nav class="container nav-menu">
-      <a href="#">
-        <img src="../assets/img/jeri-logo.png" alt="Logo Jeri em 1 dia" />
-      </a>
-      <ul class="nav-menu-options">
-        <li><a href="./index.html">Geral</a></li>
-        <li><a href="./pedidos.html">Pedidos</a></li>
-      </ul>
+    <!-- HEADER -->
+    <header id="js-header">
+      <nav class="container nav-menu">
+        <div class="nav-menu-bar">
+          <a href="../index.html">
+            <img src="../assets/img/jeri-logo.png" alt="Logo Jeri em 1 dia" />
+          </a>
+          <ul class="nav-menu-options">
+            <li><a href="./index.html">Geral</a></li>
+            <li><a href="./pedidos.html">Pedidos</a></li>
+          </ul>
+          <button class="btn-mobile" id="js-btn-menu-mobile"><img src="../assets/img/hamburguer.svg" alt="button mobile"></button>
+        </div>
+      </nav>
+    </header>
+    <!-- Menu mobile -->
+    <nav class="container nav-menu-mobile">
+      <div class="overlay js-overlay"></div>
+      <aside class="nav-menu-bar__mobile">
+        <a href="index.html">
+          <img src="../assets/img/jeri-logo.png" alt="Logo Jeri em 1 dia" />
+        </a>
+        <ul class="nav-menu-options">
+          <li><a href="./index.html">Geral</a></li>
+          <li><a href="./pedidos.html">Pedidos</a></li>
+        </ul>
+        <button class="close-menu" id="js-close-menu"><img src="../assets/img/close.svg" alt=""></button>
+      </aside>
     </nav>
-  </header>
   <section class="profile-section">
     <div class="container profile-container">
       <img src="../assets/img/foto-perfil.png" alt="profile image">
@@ -122,6 +140,7 @@
       <span>Jeri em 1 dia © 2022 - Todos os direitos reservados</span>
     </div>
   </footer>
+  <script src="../assets/js/script.js" defer></script>
 </body>
 
 </html>
